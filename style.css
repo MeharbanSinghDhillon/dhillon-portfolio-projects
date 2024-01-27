@@ -27,13 +27,14 @@ body{
 .inner{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 80vw;
-    height: 60vh;
+    height: 100vh;
     gap: 10px;
     justify-content:center;
     align-items: center;
     background-color: var(fc);
-    border: 2px solid var(--bc2);
+   
 }
 .btn{
     width: fit-content;
@@ -63,4 +64,21 @@ body{
    background-color: var(--bc2);
    color: var(--bc);
  
+}
+@media (max-width:599px){
+  .result,.btn{
+    font-size: 0.8rem;
+  }
+  .inner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 100vh;
+    gap: 10px;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: var(fc);
+   
+}
 }
