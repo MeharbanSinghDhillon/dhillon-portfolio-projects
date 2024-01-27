@@ -36,6 +36,7 @@ body{
     background-color: var(fc);
    
 }
+
 .btn{
     width: fit-content;
     font-size: 2rem;
@@ -73,12 +74,13 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 80vw;
-    height: 100vh;
     gap: 10px;
     justify-content:flex-start;
     align-items: center;
-    background-color: var(fc);
    
+   
+}
+.h3{
+    text-align: center;
 }
 }
