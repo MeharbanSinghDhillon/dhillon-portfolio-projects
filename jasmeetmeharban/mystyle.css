@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#center{
+    overflow: hidden;
+    animation-name:jasmeetmeharban;
+    animation-timing-function: ease-in-out;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes jasmeetmeharban{
+    0%{transform: scale(1);}
+;
+   
+    
+     }
+     
+

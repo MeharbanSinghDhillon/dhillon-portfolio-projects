@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.innercontainer {
+    display: grid;
+    grid-template-columns: 25vw 50vw 25vw;
+    grid-template-rows: 45vh 45vh;
+    gap: 10px;
+
+}
+
+img {
+    width: 350px;
+}
+
+div>img:nth-child(1) {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(-15deg);
+    transition: 1s ease-in-out;
+}
+
+div>img:nth-child(1):hover {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(0);
+}
+
+div>img:nth-child(2) {
+    width: 50vw;
+    height: 90vh;
+    object-fit: cover;
+    filter: opacity(0.6);
+    z-index: 0;
+
+}
+
+div>img:nth-child(3) {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(15deg);
+    transition: 1s ease-in-out;
+}
+div>img:nth-child(3):hover {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(0);
+}
+
+div>img:nth-child(4) {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(15deg);
+    transition: 1s ease-in-out;
+}
+div>img:nth-child(4):hover {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(0);
+}
+
+div>img:nth-child(5) {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(-15deg);
+    transition: 1s ease-in-out;
+    grid-area: 2/3/3/4;
+    
+}
+div>img:nth-child(5):hover {
+    margin: auto;
+    overflow: hidden;
+    transform: skewY(0);
+    
+}
